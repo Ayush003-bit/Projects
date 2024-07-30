@@ -1,0 +1,186 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+  .container{
+    display: flex;
+    justify-content: center;
+    margin: 10% 20%;
+    font-family: 'Nunito', sans-serif;
+    border: 2px solid red;
+    border-radius: 3px;
+  }
+
+  .DataSection{
+    margin: 5% 0%;
+  }
+
+  .DataSection #head {
+    margin-bottom: 10%;
+    text-transform: uppercase;
+  }
+
+  #rollno {
+    margin-bottom: 3%;
+  }
+
+  #rollno label{
+    margin-right: 3%;
+    font-weight: bold;
+  }
+
+  #rollno #rollnumber{
+    padding: 5px 10px;
+    border: 2px solid blue;
+    border-radius: 3px;
+    background-color: transparent;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+  }
+
+  
+
+  
+
+  #rollno #gettingroll{
+    margin-left: 5%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 5px 5px;
+  }
+
+  
+
+  
+  #EnrollmentNo{
+    margin-bottom: 3%;
+  }
+
+  #EnrollmentNo label{
+    margin-right: 3%;
+    font-weight: bold;
+  }
+
+  #EnrollmentNo #Enrollment{
+    padding: 5px 10px;
+    border: 2px solid blue;
+    border-radius: 3px;
+    background-color: transparent;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+  }
+
+  #EnrollmentNo #gettingEnroll{
+    margin-left: 3%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+  }
+
+
+
+  
+  #Clgcode{
+    margin-bottom: 3%;
+  }
+
+  #Clgcode label{
+    margin-right: 3%;
+    font-weight: bold;
+  }
+
+  #Clgcode #Code{
+    padding: 5px 10px;
+    border: 2px solid blue;
+    border-radius: 3px;
+    background-color: transparent;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+  }
+
+  #Clgcode #gettingcode{
+    margin-left: 3%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+  }
+
+    .result{
+       display: flex;
+       justify-content: center;
+       margin-top: 5%;
+    }
+
+  .result #result{
+    padding: 10px 10px;
+    margin-top: 5%;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .result #result:hover{
+       background-color: black;
+       box-shadow: 2px 2px;
+  }
+
+   tr{
+     border: 2px solid black;
+   }
+
+   .tablesection{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+   }
+
+   #tableData{
+      display: none;
+   }
+
+   
+
+   table,
+        tr,
+        th,
+        td{
+          padding: 10px;
+          border: 2px solid black;
+          border-collapse:  collapse;
+          border-spacing: 20px;
+          font-family: 'Nunito', sans-serif;
+
+        }
+
+        .reset{
+          display: flex;
+          justify-content: center;
+          margin-top: 3%;
+        }
+
+        .reset #reset{
+          border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 3px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+        }
+
+        .reset #reset:hover{
+            background-color: blue;
+            color: white;
+        }
+
+
+
